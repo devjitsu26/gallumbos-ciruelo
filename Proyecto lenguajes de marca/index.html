@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gallumbos Ciruelo</title>
+    <link rel="icon" type="image/png" href="images/Logo.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Gallumbos Ciruelo</h1>
+      <img
+        src="images/Logo.png"
+        alt="Logo de Gambullos Ciruelo"
+        width="500"
+        class="Logo"
+      />
+      <h2>Demasiado cómodos para quitártelos.</h2>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="#">Colección</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="#">Sobre nosotros</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="section-sobre">
+        <h2>Sobre Gallumbos Ciruelo:</h2>
+        <div id="p1">
+          <p>
+            <strong>Gallumbos Ciruelo</strong> es una marca de ropa interior
+            centrada en la comodidad diaria y en un estilo desenfadado, fresco y
+            divertido. Está pensada para personas <em>jóvenes y adultas</em> que
+            quieren sentirse cómodas todo el día, sin renunciar a un diseño con
+            personalidad.
+          </p>
+        </div>
+        <div id="p2">
+          <p>
+            La marca se dirige especialmente a quienes buscan calzoncillos
+            <em>suaves, transpirables y resistentes</em>, que sirvan tanto para
+            el día a día como para momentos más especiales. Su público ideal
+            valora la comodidad, pero también quiere que su ropa interior tenga
+            un toque diferente y no sea aburrida.
+          </p>
+        </div>
+        <div id="p3">
+          <p>
+            Gallumbos Ciruelo se diferencia de otras marcas por combinar
+            <strong
+              >tejidos de calidad con diseños originales y atrevidos</strong
+            >, manteniendo siempre un precio accesible. Además, su identidad
+            tiene un tono cercano y humorístico, lo que hace que la marca se
+            sienta más humana y distinta a las marcas tradicionales y serias.
+          </p>
+        </div>
+      </section>
+      <section class="section-producto">
+        <h2>Nuestros Productos:</h2>
+        <article class="producto">
+          <h3>Modelo Ciruelo Classic</h3>
+          <figure>
+            <img
+              src="images/ciruelo classic.jpg"
+              alt="Modelo Ciruelo Classic"
+              width="400"
+            />
+            <figcaption>Modelo Ciruelo Classic</figcaption>
+          </figure>
+
+          <p>Calzoncillo básico y muy cómodo para el día a día.</p>
+          <p><strong>Precio :</strong> 9.99 €</p>
+        </article>
+        <article class="producto">
+          <h3>Modelo Ciruelo Eco</h3>
+          <img
+            src="images/ciruelo eco.jpg"
+            width="400"
+            alt="Modelo Ciruelo Eco"
+          />
+          <p>
+            Fabricado con materiales suaves y respetuosos con el medio ambiente.
+          </p>
+          <p><strong>Precio :</strong> 13.49 €</p>
+        </article>
+        <article class="producto">
+          <h3>Modelo Ciruelo Pro</h3>
+          <img
+            src="images/ciruelo pro.jpg"
+            width="400"
+            alt="Modelo Ciruelo Pro"
+          />
+          <p>Tejido técnico y transpirable, ideal para hacer deporte.</p>
+          <p><strong>Precio :</strong> 14.99 €</p>
+        </article>
+        <article class="producto">
+          <h3>Modelo Ciruelo Night</h3>
+          <img
+            src="images/ciruelo night.jpg"
+            width="400"
+            alt="Modelo Ciruelo Night"
+          />
+          <p>Diseño elegante y oscuro, pensado para momentos más especiales.</p>
+          <p><strong>Precio :</strong> 12.99 €</p>
+        </article>
+        <article class="producto">
+          <h3>Modelo Ciruelo Fun</h3>
+          <img
+            src="images/ciruelo fun.jpg"
+            width="400"
+            alt="Modelo Ciruelo Fun"
+          />
+          <p>
+            Colores vivos y estampados divertidos para quienes quieren algo
+            diferente.
+          </p>
+          <p><strong>Precio :</strong> 11.49 €</p>
+        </article>
+      </section>
+      <section class="section-destacada">
+        <h3>Ventajas de la marca:</h3>
+        <p>
+          <strong>Fabricado en españa</strong>,
+          <strong>Diseño ergonomico</strong>,
+          <strong><span class="destacado">Algodon 100% natural</span></strong
+          >.
+        </p>
+      </section>
+      <section class="section-contacto">
+        <div class="form-box">
+          <form>
+            <label for="nombre">Nombre:</label>
+            <input
+              id="nombre"
+              name="nombre"
+              type="text"
+              placeholder="Escribe tu Nombre"
+              required
+            />
+
+            <label for="edad">Edad:</label>
+            <input
+              id="edad"
+              name="edad"
+              type="number"
+              placeholder="Selecciona tu Edad"
+              required
+            />
+
+            <label for="fecha">Fecha de nacimiento:</label>
+            <input id="fecha" name="fecha" type="date" />
+
+            <label for="email">Email:</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="tu correo"
+              required
+            />
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+
+            <label for="motivo">Motivo de contacto:</label>
+            <select id="motivo" name="motivo" required>
+              <option value="duda">Duda</option>
+              <option value="pedido">Pedido</option>
+              <option value="otros">Otros</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      &copy; 2025 Gallumbos Ciruelo - Todos los derechos reservados.
+    </footer>
+  </body>
+</html>
