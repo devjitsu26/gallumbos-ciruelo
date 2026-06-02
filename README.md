@@ -1,16 +1,19 @@
-# Gallumbos Ciruelo 🩲
+Gallumbos Ciruelo 🩲
+Website for a fictional underwear brand, developed as a Computer Science (FP Informática) project.
 
-Sitio web de una marca ficticia de ropa interior, desarrollado como proyecto de FP Informática.
+Technologies Used
+HTML5
 
-## Tecnologías usadas
-- HTML5
-- CSS3 (Grid, Flexbox, variables CSS)
+CSS3 (Grid, Flexbox, CSS variables)
 
-## Características
-- Navegación fija con blur
-- Catálogo de productos
-- Formulario de contacto
-- Diseño responsive
+Features
+Fixed navigation bar with blur effect
 
-## 🔗 Ver en vivo
-[gallumbos-ciruelo](https://devjitsu26.github.io/gallumbos-ciruelo)
+Product catalog
+
+Contact form
+
+Responsive design
+
+🔗 Live Demo
+gallumbos-ciruelo
