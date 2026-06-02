@@ -1,12 +1,12 @@
-Gallumbos Ciruelo 🩲
+# Gallumbos Ciruelo 🩲
 Website for a fictional underwear brand, developed as a Computer Science (FP Informática) project.
 
-Technologies Used
+## Technologies Used
 HTML5
 
 CSS3 (Grid, Flexbox, CSS variables)
 
-Features
+## Features
 Fixed navigation bar with blur effect
 
 Product catalog
@@ -15,5 +15,5 @@ Contact form
 
 Responsive design
 
-🔗 Live Demo
+## 🔗 Live Demo
 gallumbos-ciruelo
